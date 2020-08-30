@@ -200,7 +200,7 @@
         },
         {
           "question": "The operation of reading data from a database may be said to be _idempotent_. Suppose  we fill our online shopping cart with items, and proceed to checkout. Would we want the  checkout process to be idempotent, and why? ",
-          "answer": "",
+          "answer": "Yes. This would allow an organisation to extract as much insights as possible"
           "total_marks": 2
         },
         {
