@@ -195,7 +195,7 @@
         },
         {
           "question": "Why is data lineage important in analytics applications?",
-          "answer": "",
+          "answer": "Data lineage is important because being able to trace data to its source can help in understadning the requirements of a new software development process",
           "total_marks": 2
         },
         {
