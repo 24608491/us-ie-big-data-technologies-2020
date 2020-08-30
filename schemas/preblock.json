@@ -75,42 +75,42 @@
       "questions": [
         {
           "question": "What is the shared characteristic of R and Python that allows them to make use of a REPL (read-eval-print loop)?",
-          "answer": "",
+          "answer": "1.	The shared characteristic between both programming languages is that they are have command-line shells",
           "total_marks": 1
         },
         {
           "question": "Suppose you want to process a large amount of data. In this context, what does it mean if a process is 'I/O bound', and how would you solve/ameliorate this using hardware, or using a language such as python or javascript (or any other language you are more familiar with)?",
-          "answer": "",
+          "answer": "2.	The process is “I/O bound” if the rate of reading/writing data is slower than the rate of computation performed on the data by the CPU. From a hardware perspective the problem can be solved by increasing disk volumes in your storage devices in order to improve latency",
           "total_marks": 2
         },
         {
           "question": "What does serialization mean in the context of storing objects or data?",
-          "answer": "",
+          "answer": "3.	Serialisation is the process of converting data structures into a format that can stored, transferred and used in other systems with ease ",
           "total_marks": 1
         },
         {
           "question": "What does it mean when we say that JSON is serializable?",
-          "answer": "",
+          "answer": "It means that objects can be converted into JSON format/file",
           "total_marks": 1
         },
         {
           "question": "Define 'embarrassingly parallelisable' and provide an example in the related to data analytics?",
-          "answer": "",
+          "answer": "Embarrassingly parallelisable is used to describe a process or problem where little or no effort is needed to break down problem into a number of parallel tasks. An example graphics processing units for 3D projection where each pixel should be rendered independently",
           "total_marks": 1
         },
         {
           "question": "What paradigm shift allows the Spark's computing engine to be faster than MapReduce?",
-          "answer": "",
+          "answer": "Spark does the data processing using RAM while MapReduce has to read from and write to the storage disk ",
           "total_marks": 1
         },
         {
           "question": "How is java code able to run on multiple operating systems?",
-          "answer": "",
+          "answer": "Java can compile into bytecode which can run on any operating system give that the operating system has a virtual machine.",
           "total_marks": 1
         },
         {
           "question": "What is the difference between a virtual machine (e.g. virtualbox) and containers (e.g. docker)? Which one is more light-weight and which is more secure? ",
-          "answer": "",
+          "answer": "A virtual machine emulates a computer system making it possible to run what may appear as many computers on hardware that is one computer while Dockers/containers just virtualise the operating system instead of the underlying computer like in virtual machines. Virtual machines are more secure while containers are more light-weight. ",
           "total_marks": 3
         }
       ]
@@ -120,27 +120,27 @@
       "questions": [
         {
           "question": "The instruction (using Unix pipes) `tail -f /var/log/syslog | grep CRITICAL` streams system logs into a search command. This is an example of partial-order computation -- a concurrency model. Is it embarrassingly parallelisable? Motivate your answer.",
-          "answer": "",
+          "answer": "No, because the instruction has a pipe operator ",
           "total_marks": 2
         },
         {
           "question": "Although unlikely, suppose that the syslog file grew faster than our ability to search it. What functionality would need to be embedded in the 'pipe' (`|`) operator for us to handle that?",
-          "answer": "",
+          "answer": "Add parallel command before the pipe operator ",
           "total_marks": 1
         },
         {
           "question": "What is meant by unbounded data, and how does it differ from bounded data?",
-          "answer": "",
+          "answer": "Unbounded data is data that is ever growing and infinite data. It differs from bounded data in the bounded data is finite.",
           "total_marks": 2
         },
         {
           "question": "Stream processing is an inherently time-related activity; describe the difference between 'event time' and 'processing time' within these systems, and provide a brief example in the banking or retail sector?",
-          "answer": "",
+          "answer": "Event time is the time at which the data occurred while processing time is the time at which the data was observed. In the banking sector event time would be using a bank card to withdraw money from the ATM and processing time would receiving an SMS informing you of the transaction you have make at the ATM",
           "total_marks": 3
         },
         {
           "question": "It is possible to process _unbounded_ data in a batch system. If our use-case  does not require near real-time processing, then how would this be done?",
-          "answer": "",
+          "answer": "No. This could be done by simply giving time intervals within which the unbounded data came in and using only the data that came in within that interval",
           "total_marks": 1
         }
       ]
