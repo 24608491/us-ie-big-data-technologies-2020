@@ -10,7 +10,7 @@
       "questions": [
         {
           "question": "Loosely define the term 'data product' and provide an example?",
-          "answer": "",
+          "answer": "A data product is an application that uses a combination of data and algorithms to bring value to a business. An example of a data product would be goggle search and Amazon’s recommendation system. ",
           "total_marks": 2
         },
         {
