@@ -40,27 +40,27 @@
         },
         {
           "question": "What is a _multi-tenancy_, as it relates to cloud computing?",
-          "answer": "",
+          "answer": "Multi tenancy is when various customers with their own type of data are able to share a single cloud computing vendor",
           "total_marks": 1
         },
         {
           "question": "How could organisations with existing infrastructure leverage _on-demand_ cloud computing?",
-          "answer": "",
+          "answer": "Organisations can leverage on the fact that cloud computing allows access to data from any location which can be beneficial as it allows flexibility to support remote work for employees",
           "total_marks": 1
         },
         {
           "question": "Give an example of a cloud managed service and how its management may be  beneficial (in at least two specific ways, e.g. critical software updates occur automatically with no down time)?",
-          "answer": "",
+          "answer": "File hosting services. One benefit is that the files can be accessed from any device at any location given that the device has internet connection",
           "total_marks": 2
         },
         {
           "question": "What is horizontal vs vertical scaling?",
-          "answer": "",
+          "answer": "Vertical scaling is adding more power (CPU, memory, etc.) to your existing servers while horizontal scaling is getting additional servers.",
           "total_marks": 2
         },
         {
           "question": "What is a significant source of latency in a distributed system?",
-          "answer": "",
+          "answer": "The distance between the customer and the cloud computing vendor’s data centres",
           "total_marks": 1
         },
         {
