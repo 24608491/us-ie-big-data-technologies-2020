@@ -15,12 +15,12 @@
         },
         {
           "question": "Provide a layman's explanation for what differentiates big data analytics from conventional data analytics?",
-          "answer": "",
+          "answer": "What differentiates big data analytics from data analytics is that big data analytics involves processing, analysing and uncovering insights from data that is continuously becoming too large and complex to be analysed/processed using current traditional systems.",
           "total_marks": 1
         },
         {
           "question": "There are numerous articles online discussing how IoT is driving data volumes and is inextricably linked to big data. Name an IoT device that you come into contact with and what data it may be sending and receiving?",
-          "answer": "",
+          "answer": "Cellphone. It sends data about my age, location and websites I frequently visit among other things. It receives targeted advertisements on social media platforms I use based on the information that was sent",
           "total_marks": 1
         }
       ]
@@ -30,12 +30,12 @@
       "questions": [
         {
           "question": "What is on-premise computing?",
-          "answer": "",
+          "answer": "On-premise computing involves keeping and using organisation’s data within hardware and its associated software within the location of the organisation",
           "total_marks": 1
         },
         {
           "question": "How has on-demand cloud computing enabled big data analytics?",
-          "answer": "",
+          "answer": "On-demand cloud computing allows the provision of data storage infrastructure that is readily available and quickly scalable and can manage large spikes in data traffic and usage.",
           "total_marks": 1
         },
         {
