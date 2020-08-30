@@ -200,17 +200,17 @@
         },
         {
           "question": "The operation of reading data from a database may be said to be _idempotent_. Suppose  we fill our online shopping cart with items, and proceed to checkout. Would we want the  checkout process to be idempotent, and why? ",
-          "answer": "Yes. This would allow an organisation to extract as much insights as possible"
+          "answer": "Yes. It allows the development of fault tolorent application interface programming"
           "total_marks": 2
         },
         {
           "question": "What is CICD?",
-          "answer": "",
+          "answer": "CICD (Continuous integration and continuous delivery) allows the delivery of software to it’s users with speed, safety, and reliability",
           "total_marks": 1
         },
         {
           "question": "What is DataOps?",
-          "answer": "",
+          "answer": "A practice used by data analytics teams in order to improve the quality of the data analysis process",
           "total_marks": 1
         },
         {
