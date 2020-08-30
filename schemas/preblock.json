@@ -150,37 +150,37 @@
       "questions": [
         {
           "question": "Tape drives are still in wide use around the world. Provide three reasons for their continued use?",
-          "answer": "",
+          "answer": "They are energy efficient since they don’t require any energy once data is stored in them and they are stored away. They are highly reliable since their error rates are four to five fold lower than those of hard drives. They are also very secure because of the nature of the medium itself ",
           "total_marks": 3
         },
         {
           "question": "What is the difference between a _kibibyte_ and a _kilobyte_, and which is accurate in terms of storage?",
-          "answer": "",
+          "answer": "A kibibyte is 2 to the power 10 which 1024 bytes while a kilobyte is 1000 bytes.  A kilobyte is more accurate for storage",
           "total_marks": 2
         },
         {
           "question": "If a compact disk is 1.2mm thick, and can store 700MiB on a single disk, then how many pebibytes (PiB) of data would be stored on a hypothetical column of compact disks stacked between the Earth and the Moon? How many exbibytes (EiB)?",
-          "answer": "",
+          "answer": "Distance from the earth to the moon is 384 400 km which is equal to 384 400*1000000 mm. The n umber of compact discs from earth to the moon is 384 400*1000000/1.2=320 333 333 333.333 discs. Thus the total size is (700*320 333 333 333.33)/ (1024*1024*1024) =208 833.5653 PiB. Which is also equal to 203.939 EiB. ",
           "total_marks": 2
         },
         {
           "question": "Briefly described what is meant when people refer to SQL and NoSQL databases and provide an example of a type of data typically stored in NoSQL databases?",
-          "answer": "",
+          "answer": "SQL databases are databases that use structured query language for defining and manipulating data that has a relational model. An example of SQL data type would be numeric latitude and longitude of locations.  NoSQL databases have dynamic schemas for unstructured data. And the data is stored in many different forms. An example of NoSQL data would be a combination of graphs and tables ",
           "total_marks": 2
         },
         {
           "question": "_Wide-column_ and _key-value_ stores are examples of NoSQL database types. Can you name two more?",
-          "answer": "",
+          "answer": "Document store and graphs.",
           "total_marks": 2
         },
         {
           "question": " What makes Avro self-describing, and does Google's ProtoBuf also have this feature? Why is this a useful?",
-          "answer": "",
+          "answer": "It specifies the data type of whatever it is describing inside the format. Google’s protobuf does not have this feature. This ensures that a reader can handle serialized data.",
           "total_marks": 2
         },
         {
           "question": "When comparing random access memory (RAM) to conventional solid state disks and rota disks (normal rotational), how many orders of magnitude faster is _main memory_ or RAM (these are approximate calculations that may ignore the differences between read and write operations)?",
-          "answer": "",
+          "answer": "RAM is 20 to 30 times faster than typical solid state disks",
           "total_marks": 1
         }
       ]
