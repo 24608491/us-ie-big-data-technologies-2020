@@ -190,7 +190,7 @@
       "questions": [
         {
           "question": "Big data teams often include, amongst other roles, data engineers and data scientists. Provide a few differentiating responsibilities between these two roles?",
-          "answer": "",
+          "answer": "Data engineers have advanced programming skills  and good skills in data warehousing while data scientists have advanced statistical skills and good skills in data mining ",
           "total_marks": 2
         },
         {
