@@ -215,7 +215,7 @@
         },
         {
           "question": "When is data _immutable_ and why is it it a useful concept in the big data realm (e.g. consider Hadoop's HDFS filesystem or S3 buckets in AWS)?",
-          "answer": "Data is immutable when it can no longer be changed or modified.",
+          "answer": "Data is immutable when it can no longer be changed or modified. This is useful in situations where maybe there is aincorrect SQL query since we can easily go back in time to when the the error hadn't occured",
           "total_marks": 1
         }
       ]
